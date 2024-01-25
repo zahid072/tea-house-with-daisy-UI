@@ -9,11 +9,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class=" max-w-7xl mx-auto mt-7">
-    <header>
-        <div class="flex gap-4">
+<body class=" lg:min-w-[1440px] ">
+    <header class="max-w-7xl lg:mx-auto mx-5 mt-7">
+        <div class="flex  gap-4 lg:flex-row flex-col">
             <div class=" space-y-6">
-                <h1 class="font-extrabold text-7xl">It's good <br>
+                <h1 class="font-extrabold lg:text-7xl text-3xl">It's good <br>
                     tea time at The <br>
                     Tea House</h1>
                 <p>Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
@@ -21,19 +21,47 @@
                         src="./images/arrow.png" alt=""></button>
             </div>
             <div class=" relative">
-                <img class="w-full" src="./images/banner.png" alt="">
-                <div
-                    class="flex gap-4 shadow-[0_7px_50px_rgba(0,0,0,0.06)] max-w-64 p-5 rounded-xl absolute bottom-3 left-[5.5rem] bg-white">
-                    ` <img src="./images/star.png" alt="">
+                <img class="w-full " src="./images/banner.png" alt="">
+                <div class="flex gap-4 absolute bottom-3 left-[6.25rem] shadow-[0_7px_50px_rgba(0,0,0,0.06)] md:max-w-64 max-w-48 p-5 rounded-xl bg-white">
+                     <img src="./images/star.png" alt="">
                     <div>
-                        <h1 class="text-3xl font-extrabold">5.00</h1>
+                        <h1 class="md:text-3xl text-xl font-extrabold">5.00</h1>
                         <p>Trust Pilot Ratings</p>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <main>
+    <main class="max-w-7xl lg:mx-auto mx-5">
+        <section class="lg:my-32 my-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class=" text-4xl font-bold mb-5">Our Featured Product</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <div class="text-center flex md:flex-row flex-col gap-6 mt-7 ">
+                <div class="bg-slate-100 p-5 rounded-2xl lg:max-w-full max-w-[270px] lg:mx-0 mx-auto">
+                    <img class="mx-auto" src="./images/tea-1.png" alt="">
+                    <h1 class="text-2xl font-semibold mt-7 mb-4">Milk Tea</h1>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="bg-slate-100 p-5 rounded-2xl lg:max-w-full max-w-[270px] lg:mx-0 mx-auto">
+                    <img class="mx-auto" src="./images/tea-2.png" alt="">
+                    <h1 class="text-2xl font-semibold mt-7 mb-4">Milk Tea</h1>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="bg-slate-100 p-5 rounded-2xl lg:max-w-full max-w-[270px] lg:mx-0 mx-auto">
+                    <img class="mx-auto" src="./images/tea-3.png" alt="">
+                    <h1 class="text-2xl font-semibold mt-7 mb-4">Milk Tea</h1>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="bg-slate-100 p-5 rounded-2xl lg:max-w-full max-w-[270px] lg:mx-0 mx-auto">
+                    <img class="mx-auto" src="./images/tea-4.png" alt="">
+                    <h1 class="text-2xl font-semibold mt-7 mb-4">Milk Tea</h1>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+                
+            </div>
+        </section>
 
     </main>
     <footer>
