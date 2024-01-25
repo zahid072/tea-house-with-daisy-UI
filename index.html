@@ -9,6 +9,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
+<style>
+    jahid {
+        color: #ffffff00;
+
+        ;
+    }
+</style>
+
 <body class=" lg:min-w-[1440px] ">
     <header class="max-w-7xl lg:mx-auto mx-5 mt-7">
         <div class="flex  gap-4 lg:flex-row flex-col">
@@ -22,8 +30,9 @@
             </div>
             <div class=" relative">
                 <img class="w-full " src="./images/banner.png" alt="">
-                <div class="flex gap-4 absolute bottom-3 left-[6.25rem] shadow-[0_7px_50px_rgba(0,0,0,0.06)] md:max-w-64 max-w-48 p-5 rounded-xl bg-white">
-                     <img src="./images/star.png" alt="">
+                <div
+                    class="flex gap-4 absolute bottom-3 left-[6.25rem] shadow-[0_7px_50px_rgba(0,0,0,0.06)] md:max-w-64 max-w-48 p-5 rounded-xl bg-white">
+                    <img src="./images/star.png" alt="">
                     <div>
                         <h1 class="md:text-3xl text-xl font-extrabold">5.00</h1>
                         <p>Trust Pilot Ratings</p>
@@ -33,10 +42,13 @@
         </div>
     </header>
     <main class="max-w-7xl lg:mx-auto mx-5">
+        <!-- our featured product section  -->
         <section class="lg:my-32 my-10">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class=" text-4xl font-bold mb-5">Our Featured Product</h1>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable. </p>
             </div>
             <div class="text-center flex md:flex-row flex-col gap-6 mt-7 ">
                 <div class="bg-slate-100 p-5 rounded-2xl lg:max-w-full max-w-[270px] lg:mx-0 mx-auto">
@@ -59,7 +71,39 @@
                     <h1 class="text-2xl font-semibold mt-7 mb-4">Milk Tea</h1>
                     <p>Creamer could be replaced by fresh milk</p>
                 </div>
-                
+
+            </div>
+        </section>
+        <!-- great tea presented section  -->
+        <section class="flex gap-11 lg:flex-row flex-col">
+            <div class="lg:w-1/2 w-full grid grid-cols-2 grid-rows-3 gap-7">
+                <div class="bg-[#445b73] row-span-1 rounded-2xl bg-gradient-to-l from-[#FF8938] to-[#F00] opacity-10">
+                </div>
+                <div class="p-6 rounded-2xl bg-[#5776391a] row-span-2">
+                    <img class="mx-auto" src="./images/fresh-1.png" alt="">
+                </div>
+
+                <div class="p-6 rounded-2xl bg-[#e6a6231a] row-span-2">
+                    <img class="mx-auto" src="./images/fresh-2.png" alt="">
+                </div>
+                <div class=" row-span-1 rounded-2xl bg-gradient-to-l from-[#ffffff00] to-[#D9D9D9]"></div>
+            </div>
+            <div class="lg:w-1/2 w-full space-y-5">
+                <h1 class="text-4xl font-bold">Great Tea, Freshly <br> Presented</h1>
+                <p class="leading-7">The meaning of gong cha is chanese is to provide the best tea to emperor from all
+                    possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha
+                    had been deeply appreciated by its custoers because of good words of mouth and unique customized
+                    service orginated from Taiwan.</p>
+                <div class="max-w-md">
+                    <h1 class="text-xl font-bold mb-3">Unique Taste</h1>
+                    <p class="leading-7">A Unique and different style from other teapots gives a luxurious and
+                        minimalist impression</p>
+                </div>
+                <div class="max-w-md">
+                    <h1 class="text-xl font-bold mb-3">Premium Quality</h1>
+                    <p class="leading-7">Premium Quality that makes tea more elegant and more durable when you use it.
+                    </p>
+                </div>
             </div>
         </section>
 
